@@ -9,12 +9,18 @@ In java, string is an immutable object which means it is constant and can cannot
 
 ##### Methods in String Class
 ```
-charAt(int index)
+public char charAt(int index)
+public String concat(String s)
+public boolean equalsIgnoreCase(String s)
+public String replace(char old, char new)
+public String substring(int begin)
+public String substring(int begin, int end)
 lastIndexOf(String str)
-toUpperCase()
-toLowerCase()
-length()
-etc..
+public String toUpperCase()
+public String toLowerCase()
+public int length()
+public String trim()
+public boolean contains(“searchString”)
 ```
 
 
